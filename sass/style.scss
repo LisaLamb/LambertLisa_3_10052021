@@ -1,0 +1,67 @@
+.container_site{
+    max-width:1440px;
+    align-items:center;
+    margin:0 auto;
+}
+
+body {
+    font-family:'Roboto';
+    font-size:0.9rem;
+    height:1500px;
+}
+$colour-background-primary:#E8E8E8;
+$colour-background-secondary:#F8F8F8;
+$colour-background-tertiary:#FFF;
+$wide-width:100%;
+
+@media only screen and (max-width:425px){
+    body{
+        margin:0px;
+    }
+    .logo{
+        display:flex;
+        justify-content:center;
+        margin:8%;
+    }
+    #searchbar{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background-color:$colour-background-primary;
+        width:$wide-width;
+        height:3%;
+    }
+
+    .recherche{
+        display:flex;
+        width:50%;
+    }
+
+    input{
+        text-align:center;
+        font-family:'Roboto';
+        background-color:$colour-background-primary;
+        border:none;
+    }
+
+    .introduction{
+        text-align:center;
+        align-items:center;
+        background-color:$colour-background-secondary;
+        display: flex;
+        width:$wide-width;
+        height:15%;
+    }
+
+    .introduction p{
+        font-weight:100;
+        color:gray;
+    }
+
+    .btn-primary {
+        border-radius:15px 15px 15px 15px;
+        height:15%;
+        background:linear-gradient(#9356DC,#FF79DA);
+        color:white;
+    }
+}
