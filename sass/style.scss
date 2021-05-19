@@ -1,3 +1,11 @@
+$colour-background-primary:#E8E8E8;
+$colour-background-secondary:#F8F8F8;
+$colour-background-tertiary:#FFF;
+$wide-width:100%;
+$colour-primary:#9356DC;
+$colour-secondary:#FF79DA;
+$colour-tertiary:#99E2D0;
+
 .container_site{
     max-width:1440px;
     align-items:center;
@@ -9,13 +17,6 @@ body {
     font-size:0.9rem;
     height:1500px;
 }
-$colour-background-primary:#E8E8E8;
-$colour-background-secondary:#F8F8F8;
-$colour-background-tertiary:#FFF;
-$wide-width:100%;
-$colour-primary:#9356DC;
-$colour-secondary:#FF79DA;
-$colour-tertiary:#99E2D0;
 
 @media only screen and (max-width:425px){
     body{
