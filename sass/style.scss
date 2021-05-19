@@ -13,6 +13,9 @@ $colour-background-primary:#E8E8E8;
 $colour-background-secondary:#F8F8F8;
 $colour-background-tertiary:#FFF;
 $wide-width:100%;
+$colour-primary:#9356DC;
+$colour-secondary:#FF79DA;
+$colour-tertiary:#99E2D0;
 
 @media only screen and (max-width:425px){
     body{
@@ -61,7 +64,7 @@ $wide-width:100%;
     .btn-primary {
         border-radius:15px 15px 15px 15px;
         height:15%;
-        background:linear-gradient(#9356DC,#FF79DA);
+        background:linear-gradient($colour-primary,$colour-secondary);
         color:white;
     }
 }
