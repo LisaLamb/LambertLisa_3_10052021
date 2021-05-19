@@ -10,17 +10,16 @@ body {
     height:1500px;
 }
 
-
 @media only screen and (max-width:425px){
     body{
         margin:0px;
     }
-    .logo{
+    .header-logo{
         display:flex;
         justify-content:center;
         margin:8%;
     }
-    #searchbar{
+    .section-searchbar{
         display:flex;
         align-items:center;
         justify-content:center;
@@ -29,7 +28,7 @@ body {
         height:3%;
     }
 
-    .recherche{
+    .content-searchbar{
         display:flex;
         width:50%;
     }
@@ -41,7 +40,7 @@ body {
         border:none;
     }
 
-    .introduction{
+    .section-introduction{
         text-align:center;
         align-items:center;
         background-color:#F8F8F8;
@@ -50,12 +49,12 @@ body {
         height:15%;
     }
 
-    .introduction p{
+    .section-introduction p{
         font-weight:100;
         color:gray;
     }
 
-    button.explorer {
+    .btn-primary {
         border-radius:15px 15px 15px 15px;
         height:15%;
         background:linear-gradient(#9356DC,#FF79DA);
