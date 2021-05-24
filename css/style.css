@@ -20,6 +20,7 @@ body {
         display:flex;
         justify-content:center;
         margin:8%;
+        justify-content: space-around;
     }
     .section-searchbar{
         display:flex;
@@ -150,6 +151,66 @@ body {
     .section-footer h3{
         font-family:'Shrikhand';
         color:white;
+    }
+
+    /*page menu*/
+    .section-cover img{
+      width:100%;
+      height:15%;  
+    }
+
+    h3{
+        font-family:'Shrikhand';
+        font-size:1.3rem;
+    }
+
+    h5{
+        font-family:'Roboto';
+        font-weight:200;
+        font-size:0.9rem;
+        text-transform: uppercase;
+    }
+
+    .titre-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .titre-menu i{
+        display:flex;
+        align-items: center;
+    }
+
+    .menu-francais, .menu-note, .menu-gout, .menu-delice{
+        background-color:#F8F8F8;
+        border-radius:30px;
+    }
+
+    .content-entree, .content-plats, .content-desserts{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .content-cadre{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .cadre-menu{
+        border: solid 5px white;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px lightgrey;
+        display:flex;
+        flex-direction:column;
+        width:90%;
+    }
+
+    h4, p{
+        margin:0;
     }
 }
 
